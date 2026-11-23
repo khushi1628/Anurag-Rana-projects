@@ -16,9 +16,9 @@ int main() {
 void swap(int *i, int *j) {
     int temp;
 
-    printf("Inside swap before: i = %d and j = %d\n", *i, *j);
+    printf("before swapping: i = %d and j = %d\n", *i, *j);
     temp = *i;
     *i = *j;
     *j = temp;
-    printf("Inside swap after: i = %d and j = %d\n", *i, *j);
+    printf("after swapping: i = %d and j = %d\n", *i, *j);
 }
